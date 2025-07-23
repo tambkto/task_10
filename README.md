@@ -1,5 +1,5 @@
 
-# Application Deployment on Bean Stalk Deployment
+# Application Deployment on Bean Stalk 
 
 This repository uses **Terraform** to provision AWS infrastructure and deploy an **Node Js** using **Elastic Bean Stalk**.
 
