@@ -8,7 +8,7 @@ This repository uses **Terraform** to provision AWS infrastructure and deploy an
 ### Key Features
 
 * Modularized Terraform structure (VPC & BeanStalk modules)
-* Custom VPC with Public and Private subnet
+* Custom VPC with Public and Private subnets
 * Publicly accessible Node application
 
 ## Architecture Diagram
@@ -34,10 +34,9 @@ terraform apply
 ```
 ## 📦 Provisioned Resources
 
-* **VPC** with subnets
-* **ECS Cluster**, Task Definition, and Service
-* **Security Group** (HTTP access)
-* **Nginx Container** accessible via Public IP
+* Modularized Terraform structure (VPC & BeanStalk modules)
+* Custom VPC with Public and Private subnets
+* Publicly accessible Node application
 
 ## 🌐 Access
 
